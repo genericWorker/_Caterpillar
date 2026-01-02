@@ -9,7 +9,9 @@
             $( "#p1" ).html( "This is a <strong>butterfly</strong> in its natural habitat:" );
             $( "h2" ).addClass('butterfly');
             $('img').attr('src', 'https://www.kasandbox.org/programming-images/animals/butterfly_monarch.png');
-            $("a").attr("href", 'https://en.wikipedia.org/wiki/Butterfly'); 
+            $("a").attr("href", 'https://en.wikipedia.org/wiki/Butterfly">');
+            $("a").attr("target", "_blank");
+            $("a").attr("rel", "noopener noreferrer");
             $('a').text('Butterfly');
          
             $('#p1').addClass('butterfly');
